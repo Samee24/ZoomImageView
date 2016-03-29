@@ -66,8 +66,8 @@ public class ZoomImageView extends ImageView {
 
         //This Handles when screen is in either landscape or portrait mode
         scaleFactor = (float) (0.7 * height)/getHeight();
-        screenVals.width = width/2 - getWidth()/2;
-        screenVals.height = (float) (height/2 - getHeight()/1.5);
+        screenVals.width = width/2 - getWidth()/2 - getX();
+        screenVals.height = (float) (height/2 - getHeight()/1.5) - getY();
 
         return screenVals;
     }

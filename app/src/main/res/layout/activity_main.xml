@@ -8,7 +8,7 @@
 
     <ninja.samee.zoomimageview.ZoomImageView
         android:scaleType="center"
-        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:src="@drawable/pic"/>
